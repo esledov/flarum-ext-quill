@@ -1,0 +1,31 @@
+{
+    "name": "sledov/flarum-ext-quill",
+    "keywords": ["flarum","wysiwyg","quill"],
+    "version": "0.1.0",
+    "description": "Quill WYSIWYG editor for Flarum",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Sledov",
+            "email": "egor@sledov.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Quill Editor",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#1d92c9"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sledov\\Quill\\": "src/"
+        }
+    }
+}

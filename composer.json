@@ -1,7 +1,6 @@
 {
     "name": "sledov/flarum-ext-quill",
     "keywords": ["flarum","wysiwyg","quill"],
-    "version": "0.1.0",
     "description": "Quill WYSIWYG editor for Flarum",
     "type": "flarum-extension",
     "license": "MIT",
